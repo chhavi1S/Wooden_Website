@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Basic SEO -->
+    <title>Sree Amman Briquettes & Bio Fuels | Biomass Energy Solutions</title>
+    <meta name="description"
+        content="Explore sustainable biomass briquettes, wooden chips, biofuels, and charcoal briquettes for clean energy solutions. Eco-friendly fuel options for industries and homes." />
+    <meta name="keywords"
+        content="biomass briquettes, biofuels, wooden chips, charcoal briquettes, renewable energy, eco-friendly fuel, sustainable energy, biomass energy" />
+    <meta name="author" content="Sree Amman Briquettes & Bio Fuels" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/images/shreeammanbiofuels.png" type="image/x-icon" />
+
+    <!-- Social Sharing: Open Graph -->
+    <meta property="og:title" content="Sree Amman Briquettes & Bio Fuels | Biomass Energy Solutions" />
+    <meta property="og:description"
+        content="Providing eco-friendly biomass briquettes, wooden chips, and biofuels for sustainable energy. Clean, green, and renewable fuel options for your needs." />
+    <meta property="og:image" content="/images/og-biomass-preview.jpg" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sree Amman Briquettes & Bio Fuels | Biomass Energy Solutions" />
+    <meta name="twitter:description"
+        content="Discover sustainable energy solutions with our biomass briquettes and biofuels. Eco-friendly fuel for a cleaner, greener future." />
+    <meta name="twitter:image" content="/images/twitter-biomass-preview.jpg" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS (Animate on Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Alpine.js for interactivity -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.5/dist/cdn.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styling -->
+    <style>
+        html,
+        body {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        .wave-shape::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: #fffdf3;
+            border-top-left-radius: 50% 50px;
+            border-top-right-radius: 50% 50px;
+            z-index: 1;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 20s linear infinite;
+        }
+
+        .certification-carousel:hover {
+            animation-play-state: paused;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+
+
+<body class="bg-[#fffdf3]  font-sans">
+
+   
+    
+
+    <!-- 🌟 Navbar (Kept orange for contrast) -->
+    <nav id="navbar" class="text-blue-900 shadow-xl top-0 z-50 ">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo (Smaller on mobile) -->
+            <div class="flex items-center space-x-2 text-2xl font-bold tracking-wide">
+                <!-- <img src="/images/shreeammanbiofuels.png" class="h-12 ml-10 md:h-16 lg:h-20"> -->
+                 <h3>Vipul Enterprises</h3>
+            </div>
+    
+            <!-- Hamburger Icon for Mobile -->
+            <div class="md:hidden flex items-center">
+                <button id="menu-toggle" class="text-white focus:outline-none text-2xl bg-blue-900 p-3 rounded-full">
+                    <span id="menu-icon">☰</span>
+                </button>
+            </div>
+    
+            <!-- Menu Links for Desktop and Tablet -->
+            <div class="hidden md:flex space-x-6 font-medium mr-20 text-blue-900">
+                <a href="/index.html" class="hover:text-blue-300 transition">Home</a>
+                <a href="/About.html" class="hover:text-blue-300 transition">About</a>
+                <a href="/Products.html" class="hover:text-blue-300 transition">Product</a>
+                <a href="/Leader.html" class="hover:text-blue-300 transition">LeaderShip Team</a>
+                <a href="/Menu.html" class="hover:text-blue-300 transition">Manufacturing</a>
+                <a href="/Contact.html" class="hover:text-blue-300 transition">Contact</a>
+            </div>
+        </div>
+    
+        <!-- Mobile Menu (hidden by default) -->
+        <div id="mobile-menu" class="md:hidden hidden bg-blue-900 text-white text-center px-4 py-3 space-y-2">
+            <a href="/index.html" class="block hover:text-blue-300 transition">Home</a>
+            <a href="/About.html" class="block hover:text-blue-300 transition">About</a>
+            <a href="/Product.html" class="block hover:text-blue-300 transition">Product</a>
+            <a href="/Leader.html" class="block hover:text-blue-300 transition">LeaderShip Team</a>
+            <a href="/Menu.html" class="block hover:text-blue-300 transition">Manufacturing</a>
+            <a href="/Contact.html" class="block hover:text-blue-300 transition">Contact</a>
+        </div>
+    </nav>
+
+    <!-- 🍯 Hero Section with Green Gradient -->
+    <section class="relative bg-blue-900 text-white pt-16 pb-32 overflow-hidden font-[Poppins]">
+        <div
+            class="container mx-auto px-4 md:px-10 flex flex-col md:flex-row items-center justify-between relative z-10 gap-10">
+
+            <!-- Text Content -->
+            <div class="max-w-xl text-center md:text-left px-4 mt-16">
+                <h1 class="text-sm sm:text-5xl md:text-lg font-extrabold leading-tight">
+                    Eco-Friendly
+                    Biomass <span class="text-blue-500">Briquettes</span>
+                </h1>
+                <p class="mt-4 text-2xl font-light text-white/90">
+                   Manufacturers of : Biomass,Briquette,Wooden Chips,Fire Wood,Saw Dust Timber,Wooden Packing & Pallets,Corrugated Boxes And All Type Of Packing Materials.
+                </p>
+                <a href="/About.html"
+                    class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full font-bold hover:bg-cyan-300 transition">
+                    Learn More
+                </a>
+            </div>
+
+            <!-- Image -->
+            <div class="relative flex justify-center w-full md:w-auto">
+                <img src="/images/mass-briquettes-buyers.jpg" alt="Honeycomb"
+                    class="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] rounded-full object-cover border-4 border-white drop-shadow-2xl">
+            </div>
+
+        </div>
+
+        <!-- 🌊 Wave SVG at Bottom -->
+        <div class="absolute bottom-0 left-0 right-0 z-0">
+            <svg viewBox="0 0 1440 320" class="w-full h-[180px] md:h-[120px]" preserveAspectRatio="none">
+                <path fill="#ffffff" fill-opacity="1"
+                    d="M0,224L80,192C160,160,320,96,480,96C640,96,800,160,960,176C1120,192,1280,160,1360,144L1440,128V320H0Z">
+                </path>
+            </svg>
+        </div>
+
+    </section>
+    <!-- Premium About Section -->
+    <section id="about" class="py-28 bg-gradient-to-b from-[#e0f2fe] to-white relative overflow-hidden font-[Poppins]">
+        <!-- Decorative Elements -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-20 left-10 w-32 h-32 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl">
+            </div>
+            <div
+                class="absolute bottom-10 right-20 w-40 h-40 bg-cyan-300 rounded-full mix-blend-multiply filter blur-xl">
+            </div>
+        </div>
+
+        <div class="container mx-auto px-6 max-w-6xl">
+            <!-- Section Header -->
+            <div class="text-center mb-20" data-aos="fade-up">
+                <span class="text-blue-500 font-semibold tracking-widest mb-2 block">OUR JOURNEY</span>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-blue-800 relative inline-block">
+                    <span class="relative z-10">The Biomass Briquette Story</span>
+                </h2>
+                <p class="text-lg text-blue-600 max-w-2xl mx-auto">
+                    Sustainable energy solutions for a greener tomorrow.
+                </p>
+            </div>
+
+            <!-- Content -->
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <!-- Image -->
+                <div class="lg:w-1/2 relative" data-aos="fade-right">
+                    <div class="relative group">
+                        <img src="/images/product2.jpg" alt="Biomass Briquettes"
+                            class="rounded-xl shadow-2xl w-full h-auto transform group-hover:scale-105 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/30 to-transparent rounded-xl"></div>
+                    </div>
+                    <div class="absolute -z-10 -bottom-6 -right-6 w-full h-full border-2 border-blue-300 rounded-xl">
+                    </div>
+                </div>
+
+                <!-- Text Content -->
+                <div class="lg:w-1/2" data-aos="fade-left">
+                    <div class="bg-white p-8 rounded-xl shadow-lg relative z-10 border border-blue-100">
+                        <h3 class="text-2xl font-bold mb-6 text-blue-700">
+                            Powering Industries Naturally
+                        </h3>
+
+                        <p class="mb-6 text-lg text-blue-600 leading-relaxed">
+                            <span class="font-medium text-blue-700">Vipul Enterprises</span> is
+                            committed to delivering eco-friendly heat energy. Our briquettes are crafted from biomass
+                            waste, offering a renewable, carbon-neutral energy solution that fuels industries while
+                            protecting our planet.
+                        </p>
+
+                        <!-- Features Grid -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6">
+                            <div class="flex items-start p-3 bg-blue-50 rounded-lg border border-blue-100">
+                                <div class="text-blue-600 text-2xl font-bold mr-4">✔</div>
+                                <div>
+                                    <h4 class="font-semibold text-blue-800">Renewable Source</h4>
+                                    <p class="text-sm text-blue-600">Made from agricultural residues</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start p-3 bg-blue-50 rounded-lg border border-blue-100">
+                                <div class="text-blue-600 text-2xl font-bold mr-4">✔</div>
+                                <div>
+                                    <h4 class="font-semibold text-blue-800">Cost-Effective Energy</h4>
+                                    <p class="text-sm text-blue-600">Affordable alternative to fossil fuels</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start p-3 bg-blue-50 rounded-lg border border-blue-100">
+                                <div class="text-blue-600 text-2xl font-bold mr-4">✔</div>
+                                <div>
+                                    <h4 class="font-semibold text-blue-800">Reduced Carbon Emissions</h4>
+                                    <p class="text-sm text-blue-600">Supporting a cleaner atmosphere</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start p-3 bg-blue-50 rounded-lg border border-blue-100">
+                                <div class="text-blue-600 text-2xl font-bold mr-4">✔</div>
+                                <div>
+                                    <h4 class="font-semibold text-blue-800">Eco-Friendly Manufacturing</h4>
+                                    <p class="text-sm text-blue-600">Minimal environmental impact</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="/Product.html"
+                            class="mt-4 px-6 py-3 bg-blue-500 text-white rounded-full font-medium hover:bg-blue-400 transition-all duration-300 inline-block">
+                            Explore Our Products
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- client -->
+    <section class="bg-gradient-to-b from-[#e0f2fe] to-white py-20 font-[Poppins]">
+        <div class="max-w-6xl mx-auto px-6 text-center mb-6">
+            <h2 class="text-4xl font-bold text-blue-700 mb-4">Our Achievements</h2>
+            <p class="text-blue-600 mb-10 text-lg">Leading the way in clean and sustainable biomass energy solutions.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center" x-data="{
+              happyClients: 0,
+              tonsProduced: 0,
+              industriesPowered: 0,
+              averageRating: 0,
+              init() {
+                const duration = 2000;
+                const animate = () => {
+                  const startTime = Date.now();
+                  const update = () => {
+                    const elapsed = Date.now() - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+      
+                    this.happyClients = Math.floor(progress * 200);
+                    this.tonsProduced = Math.floor(progress * 1500);
+                    this.industriesPowered = Math.floor(progress * 85);
+                    this.averageRating = (4.8 * progress).toFixed(1);
+      
+                    if (progress < 1) {
+                      requestAnimationFrame(update);
+                    } else {
+                      setTimeout(() => {
+                        this.happyClients = 0;
+                        this.tonsProduced = 0;
+                        this.industriesPowered = 0;
+                        this.averageRating = 0;
+                        animate(); // Restart animation
+                      }, 1000); 
+                    }
+                  };
+                  update();
+                };
+                animate();
+              }
+            }">
+
+                <!-- Happy Clients -->
+                <div class="flex flex-col items-center">
+                    <i class="bi bi-people-fill text-4xl text-blue-500 mb-2"></i>
+                    <h3 class="text-3xl font-bold text-blue-700" x-text="happyClients + '+'"></h3>
+                    <p class="text-blue-600">Happy Clients</p>
+                </div>
+
+                <!-- Tons Produced -->
+                <div class="flex flex-col items-center">
+                    <i class="bi bi-box-seam text-4xl text-blue-500 mb-2"></i>
+                    <h3 class="text-3xl font-bold text-blue-700" x-text="tonsProduced + '+'"></h3>
+                    <p class="text-blue-600">Tons Produced</p>
+                </div>
+
+                <!-- Industries Powered -->
+                <div class="flex flex-col items-center">
+                    <i class="bi bi-lightning-fill text-4xl text-blue-500 mb-2"></i>
+                    <h3 class="text-3xl font-bold text-blue-700" x-text="industriesPowered + '+'"></h3>
+                    <p class="text-blue-600">Industries Powered</p>
+                </div>
+
+                <!-- Average Rating -->
+                <div class="flex flex-col items-center">
+                    <i class="bi bi-star-fill text-4xl text-blue-500 mb-2"></i>
+                    <h3 class="text-3xl font-bold text-blue-700" x-text="averageRating + '/5'"></h3>
+                    <p class="text-blue-600">Customer Rating</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- product -->
+    <section id="products" class="py-20 bg-blue-900 mt-6 font-[Poppins]">
+        <div class="container mx-auto px-4">
+            <!-- Section Header -->
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-blue-100">Our Biomass Products</h2>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <img src="/images/mass-briquettes-buyers.jpg" alt="Biomass Briquettes"
+                        class="w-full h-64 object-contain transition-transform duration-500 hover:scale-110">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold text-blue-700">Biomass Briquettes</h3>
+                            <span class="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm font-semibold">₹
+                                6,000/ton</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Eco-friendly fuel made from organic waste, perfect for industrial
+                            boilers and kilns.</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <img src="/images/product2.jpg" alt="Biomass Pellets"
+                        class="w-full h-64 object-contain transition-transform duration-500 hover:scale-110">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold text-blue-700">Biomass Pellets</h3>
+                            <span class="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm font-semibold">₹
+                                7,500/ton</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Compact energy-dense pellets ideal for power generation and
+                            residential heating.</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <img src="/images/bio-mass-pellets.jpg" alt="Charcoal Briquettes"
+                        class="w-full h-64 object-contain transition-transform duration-500 hover:scale-110">
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold text-blue-700">Charcoal Briquettes</h3>
+                            <span class="bg-blue-300 text-blue-900 px-3 py-1 rounded-full text-sm font-semibold">₹
+                                8,500/ton</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">High-energy charcoal briquettes, ideal for barbecues, hotels, and
+                            restaurants.</p>
+                        <div class="flex justify-between items-center">
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View All Button -->
+            <div class="text-center mt-12" data-aos="fade-up">
+                <a href="/Product.html"
+                    class="inline-block bg-blue-500 text-white hover:bg-blue-600 font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                    View All Products <i class="fas fa-arrow-right ml-2 transition-transform hover:translate-x-1"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="our-story" class=" py-20">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+
+                <!-- 🌱 Circular Image -->
+                <div class="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 mx-auto rounded-full overflow-hidden shadow-md border-4 border-white"
+                    data-aos="fade-right">
+                    <img src="/images/wood-chips-sale.jpg" alt="Biomass Briquette Production"
+                        class="w-full h-full object-cover">
+                </div>
+
+                <!-- ♻️ Text & Features -->
+                <div class="text-white text-center md:text-left px-2" data-aos="fade-left">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-blue-600">Sustainable Biomass Briquettes</h2>
+
+                    <p class="text-base sm:text-lg mb-4 leading-relaxed text-blue-500">
+                        OSO Biomass Briquettes are made from **sustainable biomass** sources, contributing to reducing
+                        carbon emissions and promoting a cleaner, greener environment. By utilizing organic waste from
+                        forestry, agriculture, and other natural sources, we create an eco-friendly, carbon-neutral fuel
+                        alternative to traditional coal and wood. These briquettes provide a renewable and sustainable
+                        energy source that reduces reliance on fossil fuels.
+                    </p>
+
+                    <p class="text-base sm:text-lg mb-6 leading-relaxed  text-blue-500">
+                        Our biomass briquettes are crafted using natural materials that help restore the environment
+                        while providing clean and efficient heat. These energy-efficient briquettes are ideal for
+                        industries, homes, and commercial heating systems, offering a low-carbon solution that can be
+                        used for heating, cooking, and power generation.
+                    </p>
+
+                    <!-- ✅ Features -->
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-lg">
+                        <li class="flex items-center justify-center md:justify-start text-blue-500">
+                            <i class="fas fa-leaf text-xl mr-2"></i> Made from Sustainable Biomass Materials
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start text-blue-500">
+                            <i class="fas fa-recycle text-xl mr-2"></i> Eco-Friendly & Renewable Fuel Source
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start text-blue-500">
+                            <i class="fas fa-fire text-xl mr-2"></i> High Heating Efficiency
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start text-blue-500">
+                            <i class="fas fa-award text-xl mr-2"></i> Sustainable and Carbon-Neutral
+                        </li>
+                    </ul>
+
+                    <!-- ♻️ CTA Button -->
+                    <div class="mt-6">
+                        <a href="/BiomassProducts.html"
+                            class="inline-block bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition font-bold">
+                            Explore Our Biomass Briquettes
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="relative bg-blue-900 text-white">
+        <!-- Wave at top -->
+        <div class="absolute top-0 left-0 w-full overflow-hidden -mt-1">
+            <svg viewBox="0 0 1440 120" class="w-full h-[60px] md:h-[80px]" preserveAspectRatio="none">
+                <path fill="#fffdf3" fill-opacity="1"
+                    d="M0,64L80,58.7C160,53,320,43,480,48C640,53,800,75,960,74.7C1120,75,1280,53,1360,42.7L1440,32V0H0Z">
+                </path>
+            </svg>
+        </div>
+    
+        <!-- Footer content -->
+        <div class="relative container mx-auto pt-24 pb-10 px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Logo & Description -->
+                <div class="text-center md:text-left">
+                    <!-- <img src="/images/shreeammanbiofuels.png" alt="footer logo" class="w-50 mx-auto md:mx-0 mb-4"> -->
+                    <h2 class="font-bold text-lg mb-2">Vipul Enterprises</h2>
+                    <p class="text-sm text-amber-200">
+                        Manufacturers of : Biomass,Briquette,Wooden Chips,Fire Wood,Saw Dust Timber,Wooden Packing & Pallets,Corrugated Boxes And All Type Of Packing Materials.
+                    </p>
+                    <div class="flex justify-center md:justify-start mt-6 space-x-6">
+                        <a href="https://www.facebook.com" class="text-yellow-200 hover:text-white">
+                            <i class="fab fa-facebook-f text-2xl"></i>
+                        </a>
+                        <a href="https://www.twitter.com" class="text-yellow-200 hover:text-white">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com" class="text-yellow-200 hover:text-white">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" class="text-yellow-200 hover:text-white">
+                            <i class="fab fa-linkedin-in text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Contact Us -->
+                <div class="text-center md:text-left">
+                    <h3 class="font-bold text-lg mb-4">Contact Us</h3>
+                    <div class="space-y-2">
+                        <div>
+                            <h4 class="font-semibold text-yellow-300">Phone</h4>
+                            <p><a href="tel:7373032404" class="text-yellow-200 hover:text-white">+91-9897879889</a></p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-yellow-300">Email</h4>
+                            <p><a href="mailto: vipulenterprises2011@gmail.com" class="text-yellow-200 hover:text-white">
+                                vipulenterprises2011@gmail.com</a></p>
+
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Office -->
+                <div class="text-center md:text-left">
+                    <h3 class="font-bold text-lg mb-4">Office </h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <h5 class="font-semibold text-yellow-200">Office</h5>
+                            <address class="text-yellow-200 not-italic">
+                                kh,No.52,Lathar Deva Hoon,Vill. Lathardevahoon,Jhabera Road Manglaur Roorkee,Haridwar(U.K)
+                            </address>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Bottom -->
+            <div class="border-t border-yellow-500 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left text-xs">
+                <p class="font-bold mb-4 md:mb-0">&copy; 2025 Vipul Enterprises. All rights reserved.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#" class="text-yellow-200 hover:text-white">Privacy Policy</a>
+                    <a href="#" class="text-yellow-200 hover:text-white">Terms of Service</a>
+                    <a href="#" class="text-yellow-200 hover:text-white">Shipping Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Toggle Script -->
+    <script>
+
+
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        
+
+
+
+
+
+
+        // Show benefit details
+        function showBenefitDetails(benefitId) {
+            const detailContainer = document.getElementById('benefitDetails');
+            const contentContainer = document.getElementById('benefitContent');
+
+            // Update content
+            contentContainer.innerHTML = `
+      <h3 class="text-2xl font-bold text-green-600 mb-4">${benefitDetails[benefitId].title}</h3>
+      <div class="text-green-400">${benefitDetails[benefitId].content}</div>
+    `;
+
+            // Show container
+            detailContainer.classList.remove('hidden');
+            detailContainer.scrollIntoView({ behavior: 'smooth' });
+
+            // Highlight clicked card
+            document.querySelectorAll('.benefit-card').forEach(card => {
+                card.classList.remove('ring-2', 'ring-blue-500');
+            });
+            event.currentTarget.classList.add('ring-2', 'ring-blue-500');
+        }
+
+        // Hide benefit details
+        function hideBenefitDetails() {
+            document.getElementById('benefitDetails').classList.add('hidden');
+            document.querySelectorAll('.benefit-card').forEach(card => {
+                card.classList.remove('ring-2', 'ring-blue-500');
+            });
+        }
+
+        // Toggle menu visibility and change icon between ☰ and X
+        const menuToggleButton = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const menuIcon = document.getElementById("menu-icon");
+
+        menuToggleButton.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden"); // Show/Hide the mobile menu
+
+            // Toggle between hamburger and close icon (X)
+            if (mobileMenu.classList.contains("hidden")) {
+                menuIcon.textContent = "☰"; // Hamburger icon
+            } else {
+                menuIcon.textContent = "×"; // X icon
+            }
+        });
+
+
+
+    </script>
+
+    <!-- Include Alpine.js for animations -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</body>
+
+</html>
